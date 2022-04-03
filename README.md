@@ -2,9 +2,17 @@
 
 ## Overview
 
-## Linear Regression to Predict MPG
+The purpose of this statistical analysis is to ___
 
-a. Output from the Multiple Linear Regression to Predict MPG
+### Data Source
+
+MechaCar_mpg.csv; Suspension_Coil.csv
+
+### Tools
+
+R Studio; readr Library; tidyverse Library
+
+## Linear Regression to Predict MPG
 
 Vehicle length, vehicle weight, and ground clearance are the three variables that provided a non-random amount of variance to the mpg values in the dataset. In other words, they variables have a statistically significant impact on mpg. This is determined by examining the p-values in the dataset. Statistical metrics were obtained by implementing the "summary()" function to the multiple linear regression statement. Our p-values are displayed under "Pr(>ltl)" in the R Studio Console.
 
@@ -29,11 +37,22 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 The one-sample t-test, performed by the t.test() function, is used to compare the means of two samples to determine statistical differences. The population mean of 1500 pounds per square inch (PSI) is compared to the lots altogether and individually. The-test for all of the lots compared to the population mean determined a p-value of approximately 0.06. Because this p-value is greater than 0.05, there is no statistical difference between the means of the population and that of the lots as a whole. For the t-test comparing Lot 1 and the population mean, the p-value returned is 1. Because this p-value is greater than 0.05, there is no statistical difference between the means of the population and that of Lot 1. For the t-test comparing Lot 2 and the population mean, the p-value returned is approximately 0.61. Because this p-value is greater than 0.05, there is no statistical difference between the means of the population and that of Lot 2. Laslty, for the t-test comparing Lot 3 and the population mean, the p-value returned is approximately 0.04. Because this p-value is less than 0.05, it can be said that there is a statistical difference between the observed PSI mean of Lot 3 and the population  PSI mean. The null hypothesis is therefore rejected for Lot 3 only.
 
-<img src=" "/>
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/8d842ea7cae9d201f0605488c1ef41b1533ed108/images/ttest_all.png" width="350" height="250"/>
 
-<img src=" "/>
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/8d842ea7cae9d201f0605488c1ef41b1533ed108/images/ttest_lot1.png" width="500" height="250"/>
 
-<img src=" "/>
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/8d842ea7cae9d201f0605488c1ef41b1533ed108/images/ttest_lot2.png" width="500" height="250"/>
+
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/8d842ea7cae9d201f0605488c1ef41b1533ed108/images/ttest_lot3.png" width="500" height="250"/>
 
 
-## Interpretation of the Multiple Linear Regression Results
+## Study Design: MechaCar vs Competition
+
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
+
