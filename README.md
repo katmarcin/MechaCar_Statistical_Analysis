@@ -12,7 +12,7 @@ The statistical test for slope, or intercept is estimated at -1.040e+02. at inte
 
 To assess whether this linear model predict mpg of MechCar prototypes effectively, we examined the r-squared value of the model. The r-squared value  measures the co-variance of the variables, or how well the data fits the regression model. With a multiple r-squared value of 0.7149, we can predict a strong positive association of independent variables to the dependent variable. In other words, roughly 71% of the data fits the regression model, indicating a strong fit for the model.
 
-<img src=" " width="500" height="350"/>
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/47b7bfab9071e069bf432dd849d19e3d68919dfb/images/lin_regress_mpg.png" width="500" height="350"/>
 
 ## Summary Statistics on Suspension Coils
 
