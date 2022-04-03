@@ -22,6 +22,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 // lot summary image
 
+<img src="https://github.com/katmarcin/MechaCar_Statistical_Analysis/blob/2e557d4cc9e533ac4d5e5ddb25392ab87a8f8677/images/lot_summary.png" width="550" height="120"/>
+
      
 
 ## T-Tests on Suspension Coils
